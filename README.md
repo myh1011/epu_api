@@ -63,8 +63,6 @@ curl http://localhost:8090/v1/chat/completions \
 |----------|----------|--------------|------------|
 | `gpt-`   | OpenAI   | `openai`     | `openai_adapter.py` |
 | `deepseek-` | DeepSeek | `deepseek`   | `deepseek_adapter.py` |
-| `spark`  | 讯飞星火 | `spark`      | `spark_adapter.py` |
-| `qwen`   | 通义千问 | `qwen`       | `qwen_adapter.py` |
 | `ollama-` | Ollama本地 | `ollama`    | `ollama_adapter.py` |
 
 ## 注意事项
