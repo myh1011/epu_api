@@ -8,8 +8,6 @@
 2. **多模型支持**：
    - OpenAI系列（GPT模型）
    - DeepSeek
-   - 讯飞星火（Spark）
-   - 通义千问（Qwen）
    - Ollama本地模型
 3. **灵活的API密钥管理**：
    - 支持多种API密钥传递方式
@@ -53,7 +51,7 @@ curl http://localhost:8090/v1/chat/completions \
   -H "X-API-KEY: your-api-key-1" \
   -H "Content-Type: application/json" \
   -d '{
-    "model": "gpt-3.5-turbo",
+    "model": "gpt-4.1",
     "messages": [{"role": "user", "content": "你好，介绍一下你自己"}]
   }'
 ```
