@@ -1,0 +1,26 @@
+openai:
+  api_key: "your-openai-key"
+  base_url: "https://api.openai.com/v1"
+  proxy: "your proxy"  
+
+deepseek:
+  api_key: "your-deepseek-key"
+  base_url: "https://api.deepseek.com/v1"
+  proxy: "your proxy"
+
+spark:
+  app_id: "your-app-id"
+  api_key: "your-spark-key"
+  api_secret: "your-api-secret"
+  proxy: "your proxy" 
+
+qwen:
+  api_key: "your-qwen-key"
+  proxy: "your proxy"
+
+ollama:
+  base_url: "http://localhost:11434"
+
+my_api_keys:
+  - "your-api-key-1"
+  - "your-api-key-2"
